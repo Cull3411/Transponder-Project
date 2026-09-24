@@ -1,0 +1,17 @@
+# Arduino / build
+build/
+.pio/
+.vscode/
+*.elf
+*.hex
+*.bin
+*.map
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — never commit
+*.pem
+.env
+secrets.h
