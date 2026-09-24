@@ -20,6 +20,8 @@ Sketch constant: `IR_LED_PIN = 1` — this is Digispark **P1**, which is Arduino
 
 P0 / D0 / PB0 is the next pin over. Timer1 `COM1A0` toggles **OC1A on PB1**, so the LED must stay on P1.
 
+Clone silkscreen on the back of this rev3 prints **“P1 D0 PWM”** on that same pad. That “D0” text is a labeling error; the pad is still **PB1**. Code uses pin `1`.
+
 ## Connectors (from the tested harness)
 
 - RC car power: 3-pin servo-style housing (red + black used)
@@ -31,6 +33,8 @@ People often write “P1/D0/PWM.” On Digispark:
 
 - **P0 = D0 = PB0** (PWM on some cores)
 - **P1 = D1 = PB1** (PWM / Timer1 OC1A) ← this build
+
+On this clone the P1 hole is silkscreened **P1 D0 PWM**. Trust **P1** and `IR_LED_PIN = 1`, not the extra “D0.”
 
 ## Photos
 
