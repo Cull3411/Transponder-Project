@@ -4,6 +4,8 @@ Personal Arduino hardware and firmware project by **Todd Davis** ([Cull3411](htt
 
 Experimental IR transponder work on a **Digispark ATtiny85**, including a Grok-assisted sketch that emits LapMonitor-style IR for ID 1. AI tools drafted and cleaned timing code; hardware testing and decoder checks stayed human-owned.
 
+Companion decoder repo: [Decoder-Project](https://github.com/Cull3411/Decoder-Project)
+
 ## Featured sketch
 
 [`firmware/Transponder_ID1/Transponder_ID1.ino`](firmware/Transponder_ID1/Transponder_ID1.ino)
