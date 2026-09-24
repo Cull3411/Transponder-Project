@@ -1,12 +1,14 @@
-# Transponder ID 1 (Digispark ATtiny85)
+# Transponder ID 1 (example)
 
 Example sketch developed with **Grok**, then tuned on hardware.
+
+**ID 1** is one example from the ID list **1 through 96**. Nearly all of those IDs have been worked through; this folder shows the ID 1 firmware as a representative sketch.
 
 ## Hardware
 
 - Board: Digispark (ATtiny85)
 - IR LED on **PB1 / pin 1** (Timer1 OC1A for ~38 kHz carrier)
-- Target: LapMonitor-style IR lap transponder, ID 1
+- Target: IR transponder ID 1 (example of IDs 1–96)
 
 ## What the sketch does
 
