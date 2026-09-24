@@ -1,4 +1,4 @@
-// Digispark ATTINY85 - Emulate LapMonitor IR Transponder ID 1
+// Digispark ATTINY85 - IR Transponder ID 1 (example of IDs 1-96)
 // Optimized: removed redundant digitalWrite, named repetition constant
 // Uses mathematically tidy 24-value gap array (avg 12.50 ms, multiples of 40 µs)
 //
