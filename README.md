@@ -2,11 +2,11 @@
 
 Personal Arduino hardware and firmware project by **Todd Davis** ([Cull3411](https://github.com/Cull3411)).
 
-Experimental IR transponder work on a **Digispark ATtiny85**, including a Grok-assisted sketch that emits LapMonitor-style IR for ID 1. AI tools drafted and cleaned timing code; hardware testing and decoder checks stayed human-owned.
+Experimental IR transponder work on a **Digispark ATtiny85**. A Grok-assisted sketch for **ID 1** is in the repo as an example. IDs run from **1 to 96**; nearly all of those IDs have been worked through. AI tools drafted and cleaned timing code; hardware testing and decoder checks stayed human-owned.
 
 Companion decoder repo: [Decoder-Project](https://github.com/Cull3411/Decoder-Project)
 
-## Featured sketch
+## Featured sketch (example ID)
 
 [`firmware/Transponder_ID1/Transponder_ID1.ino`](firmware/Transponder_ID1/Transponder_ID1.ino)
 
@@ -15,6 +15,7 @@ Companion decoder repo: [Decoder-Project](https://github.com/Cull3411/Decoder-Pr
 - Timer1 CTC ~38 kHz carrier on OC1A
 - 30-bit block pattern, 130 repeats per message (tunable)
 - 24-slot gap array, 40 µs multiples, 12.50 ms average
+- **ID 1 is an example** of the ID set **1–96**
 
 Details: [`firmware/Transponder_ID1/README.md`](firmware/Transponder_ID1/README.md)
 
@@ -46,7 +47,7 @@ Tools used: **Grok**, **ChatGPT**, **Microsoft Copilot**.
 ## Repository layout
 
 ```
-firmware/Transponder_ID1/     Digispark ATtiny85 IR ID 1 sketch (Grok-assisted)
+firmware/Transponder_ID1/     Digispark ATtiny85 IR sketch — example ID 1 of 1–96
 firmware/TransponderBeacon/   Generic placeholder beacon
 docs/                         AI workflow and hardware notes
 ```
